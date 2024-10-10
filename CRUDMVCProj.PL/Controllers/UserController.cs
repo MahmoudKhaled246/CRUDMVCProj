@@ -10,6 +10,9 @@ using CRUDMVCProj.PL.ViewModels.User;
 namespace CRUDMVCProj.PL.Controllers
 {
     //[Authorize (Roles = "Admin")]
+
+
+
     [Authorize]
 	public class UserController : Controller
 	{
